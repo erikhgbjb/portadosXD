@@ -1,0 +1,253 @@
+*{
+    transition: all 0.7s ease-out;
+}
+body{
+    margin: 0px;
+    background-image: url("/images/logo/logo-full.png")
+}
+/* color ligas navbar */
+nav ul li a{
+    /* color: rgb(255, 255, 255)!important;  */
+}
+/* color fondo navbar */
+.color-nav{
+    /* background: linear-gradient(90deg, rgba(131,58,180,0.7455357142857143) 0%, rgba(65,162,186,1) 100%); */
+}
+/* color fondo logo */
+.color-logo{
+    /* color: rgb(255, 255, 255)!important; */
+    border-radius: 16px;
+    padding: 5px;
+}
+.uno{
+    margin: 0% 20% 0% 20%;
+}
+/* color cuerpo carta de presentacion */
+.card-id{
+    width: 80%;
+    margin: 2% 10% 2% 10%;
+    /* background: radial-gradient(circle, rgba(166,165,165,1) 0%, rgba(238,238,240,1) 100%); */
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    opacity: 0.98;
+}
+/* color footer */
+.pie{
+    position: relative;
+    bottom: auto;
+}
+
+
+
+
+/* color titulo */
+.titulo{
+    margin-top: 12px;
+    /* color:purple; */
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+.presenta{
+    display: inline-flex;
+}
+.foto{
+    width: 30%;
+}
+.foto img{
+    width: 100%;
+    border-radius: 50%;
+    /* background: linear-gradient(90deg, rgba(131,58,180,0.7455357142857143) 0%, rgba(65,162,186,1) 100%); */
+    padding: 8px;
+}
+.presentacion{
+    width: 70%;
+    font-size: 100%;
+}
+.iconos{
+    width: 100%;
+    height: 10%;
+    margin: 15px 0px 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.iconos a{
+    margin-right: 9%;
+    margin-left: 30%;
+    font-size: 3em;
+}
+                /* .linked{
+                    height: auto;
+                    width: auto;
+                    background-color: aqua;
+                    border-radius: 50%;
+                    padding: 5px;
+                } */
+/* footer */
+.pie-cont{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.logos-foot{
+    font-size: 2.4em;
+}
+.ligas-foot{
+    margin-left: 10px;
+}
+.ligas-foot a{
+    margin-top: 15px;
+}
+/* derechos reservados */
+.copy{
+    text-align: center;
+    /* background: linear-gradient(90deg, rgba(131,58,180,0.7455357142857143) 0%, rgba(65,162,186,1) 100%)!important; */
+    opacity: 0.6;
+}
+.copy p{
+    margin-bottom: 0;
+}
+.flexi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flexi a{
+    text-decoration: none;
+    /* color: black; */
+}
+.adi{
+    width: 18%;
+}
+
+
+
+
+/* hovers */
+.color-logo:hover{
+    transform: scale(1.2);
+    margin-left: 2%;
+}
+nav ul li a:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    margin: 0px 25px 0px 25px;
+    font-weight: bold;
+}
+.ligas-foot a:hover{
+    /* color: aquamarine; */
+    font-size: 30px;
+}
+.logos-foot a:hover{
+    /* color: blanchedalmond; */
+    font-size: .7em;
+}
+
+
+
+
+
+@media (min-width: 992px){
+    .navbar-nav{
+        margin-left: 65%;
+    }
+}
+@media (max-width: 991px){
+    .navbar-nav{
+        margin-left: 45%;
+    }
+    .adi{
+        width: 0px;
+    }
+    .flexi{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .card-heigth-2{
+        height: 100vh;
+    }
+    .h-100{
+        width: 115%;
+    }
+    .ligas-foot{
+        margin: 30px 0px 0px 10px;
+    }
+    /* .logos-foot{
+        display: grid;
+    }
+    .ligas-foot{
+        display: grid;
+    } */
+    .presenta{
+        display: block;
+        margin-left: 0%;
+    }
+    .foto{
+        width: 100%;
+        padding: 10px 0px 25px 0px;
+    }
+}
+
+@media (min-width: 1600px){
+    .color-nav{
+        font-size: 2em;
+    }
+    .color-logo{
+        font-size: 1.2em;
+    }
+    .tamano-logo{
+        width: 11%;
+        height: auto;
+    }
+    .titulo{
+        font-size: 5em;
+    }
+    .presentacion{
+        font-size: 2em;
+    }
+    .foto img{
+        padding: 20px;
+        margin-bottom: 3em;
+    }
+    .iconos a{
+        font-size: 8em;
+    }
+    .card-heigth{
+        height: 1500px;
+    }
+    .logos-foot{
+        font-size: 5em;
+        width: 35%;
+    }
+    .ligas-foot{
+        width: 35%;
+        font-size: 3em;
+    }
+    .copy{
+        font-size: 2em;
+    }
+    .card-title{
+        font-size: 4em;
+    }
+    .card-text{
+        font-size: 2em;
+    }
+    .pie-cont{
+        padding: 30px 0px 20px 0px;
+    }
+}
+@media (min-width: 2000px){
+    .color-nav{
+        font-size: 3.1em;
+    }
+    .tamano-logo{
+        width: 13%;
+    }
+    nav li{
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,79 @@
+/* navegacion */
+.navegacion{
+    background: linear-gradient(90deg, rgba(131,58,180,0.7455357142857143) 0%, rgba(65,162,186,1) 100%);
+}
+/* cuerpo */
+.cuerpo .presentacion .top{
+    background: radial-gradient(circle, rgba(166,165,165,1) 0%, rgba(238,238,240,1) 100%);
+}
+.cuerpo .presentacion .top .titulo{
+    color:purple;
+}
+.cuerpo .presentacion .top .foto{
+    background: linear-gradient(90deg, rgba(131,58,180,0.7455357142857143) 0%, rgba(65,162,186,1) 100%);
+}
+.cuerpo .presentacion .top .detalles .descripcion{
+    color: #000000;
+    font-weight: bold;
+}
+/* footer */
+.footer{
+    background: linear-gradient(90deg, rgba(131,58,180,0.7455357142857143) 0%, rgba(65,162,186,1) 100%);
+}
+.footer .logos a{
+    background: linear-gradient(to right, #833ab4, #41a2ba);
+    opacity: 0.9;
+    color: #fff;
+}
+.footer .logos a:hover{
+	color: #000;
+	background-color: #ffffff;
+        opacity: 1;
+}
+.footer .ligas a{
+    color: black;
+    font-weight: bold;
+}
+.footer .ligas a:hover{
+    color: #ffffff;
+	padding-left: 8px;
+}
+
+/* nuevos */
+.cuerpo .presentacion .top .logossup a{
+    background: linear-gradient(to right, #1A66CC, #2699E6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cuerpo .presentacion .top .logossup a:hover{
+    -webkit-text-fill-color: #056991;
+}
+.cuerpo .presentacion .top .boton{
+    border: solid 3px #a77da7;
+    background: purple;
+}
+.cuerpo .presentacion .top .boton a{
+    color: #fff;
+}
+.cuerpo .presentacion .top .boton:hover{
+    background: #a77da7;
+    border: solid 3px rgb(93 8 101);
+}
+.cuerpo .presentacion .top .boton a:hover{
+    color: #000;
+}
+
+
+
+.cuerpo .presentacion .top .logossup .fa-facebook:hover{
+    -webkit-text-fill-color: #056991;
+}
+.cuerpo .presentacion .top .logossup .fa-instagram:hover{
+    -webkit-text-fill-color: #ff53cb;
+}
+.cuerpo .presentacion .top .logossup .fa-github:hover{
+    -webkit-text-fill-color: #031316;
+}
+.cuerpo .presentacion .top .logossup .fa-square-x-twitter:hover{
+    -webkit-text-fill-color: #000;
+}
