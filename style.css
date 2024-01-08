@@ -6,13 +6,13 @@ body{
     background-image: url("/images/logo/logo-full.png")
 }
 /* color ligas navbar */
-nav ul li a{
-    /* color: rgb(255, 255, 255)!important;  */
-}
+/* nav ul li a{
+    color: rgb(255, 255, 255)!important; 
+} */
 /* color fondo navbar */
-.color-nav{
-    /* background: linear-gradient(90deg, rgba(131,58,180,0.7455357142857143) 0%, rgba(65,162,186,1) 100%); */
-}
+/* .color-nav{
+    background: linear-gradient(90deg, rgba(131,58,180,0.7455357142857143) 0%, rgba(65,162,186,1) 100%);
+} */
 /* color fondo logo */
 .color-logo{
     /* color: rgb(255, 255, 255)!important; */
