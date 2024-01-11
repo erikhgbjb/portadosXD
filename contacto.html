@@ -11,14 +11,17 @@
     <!-- css -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="colores.css">
-    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="contacto2.css">
     <title>Document</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top color-nav" id="nav">
         <div class="container-fluid">
             <a class="navbar-brand color-logo" href="#">
-                <img src="/images/logo/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top tamano-logo">
+                <!-- <img src="/images/logo/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top tamano-logo"> -->
+                <!-- descomentar al subir -->
+                <img src="http://drive.google.com/uc?export=view&id=1Z0ET3M4yG0F6qt_I17E8sBl4tyVOGArP" alt="" width="30" height="30" class="d-inline-block align-text-top tamano-logo">
+                <!-- hasta aqui -->
                 erikeqbolio
               </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,135 +45,119 @@
 
 
 
-      <div class="card-id" id="card-id">
-        <div class="tabs">
-            <div class="tab-container">
-              <div id="tab3" class="tab"> 
-                <a href="#tab3">Otros</a>
-                <div class="tab-content">
-                  <h2>Otros medios de contacto</h2>
-                  <br><br><br>
-                  <p> <strong>Telefono: </strong> 55-4286-9882 </p> 
-                  <br>
-                  <p> <strong>Email: </strong> erikeqbolio@outlook.com </p>
-                </div>
+
+      <main>
+        <div class="card-id" id="card-id" style="height: min-content;">
+          <div class="row">
+              <div class="container">
+                  <!-- cuerpo de pestañas -->
+                  <div class="tabs">
+                      <div class="tab-container">
+                        <!-- <div id="tab3" class="tab tabi"> 
+                          <a href="#tab3">Pestaña 3</a>
+                          <div class="tab-content">
+                            <h2>Titulo 3</h2>
+                            <p>Lorem ipsum ...</p>
+                          </div>
+                        </div> -->
+                        <div id="tab2" class="tab tabi">
+                          <a href="#tab2">Otros</a>
+                          <div class="tab-content">
+                            <h2>Otros medios de contacto</h2>
+                            <br><br>
+                            <p> Teléfono: <strong>55-4286-9882</strong> </p>
+                            <br>
+                            <p> Correo: <strong>erikeqbolio@outlook.com</strong> </p>
+                          </div>
+                        </div> 
+                        <div id="tab1" class="tab">
+                          <a href="#tab1">Contacto</a>
+                          <div class="tab-content">
+                            <div class="prueba">
+                              <div class="formulario">
+                                  <form>
+                                    <div class="form-group">
+                                      <label for="inputName">Nombre</label>
+                                      <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="inputEnterprise">Empresa</label>
+                                      <input type="text" class="form-control" id="inputEnterprise" placeholder="Nombre de la empresa">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputEmail4">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="inputAddress">Dirección</label>
+                                      <input type="text" class="form-control" id="inputAddress" placeholder="Av. eje entral #43">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="FormControlTextarea" class="form-label">Mensaje</label>
+                                      <textarea class="form-control textareas" id="FormControlTextarea" rows="3"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary boton">Enviar</button>
+                                  </form>
+                                </div>
+                            </div>
+                            <br><br>
+                            <!-- aqui va el que se oculta al ser grande -->
+                            <div class="ocultante">
+                              <h2>Otros medios de contacto</h2>
+                              <br><br>
+                              <p> Teléfono: <strong>55-4286-9882</strong> </p>
+                              <br>
+                              <p> Correo: <strong>erikeqbolio@outlook.com</strong> </p>
+                            </div>
+                            <!-- termina aqui el que se oculta -->
+                          </div>
+                        </div> 
+                      </div>
+                    </div>
+                  <!-- fin de pestañas -->
               </div>
-              <div id="tab2" class="tab">
-                <a href="#tab2">Pestaña 2</a>
-                <div class="tab-content">
-                  <h2>Titulo 2</h2>
-                  <p>Lorem ipsum ...</p>
-                </div>
-              </div> 
-              <div id="tab1" class="tab">
-                <a href="#tab1">Caontacto</a>
-                <div class="tab-content">
-                  <h2>Contacto</h2>
-                  <p>Lorem ipsum ...</p>
-
-                  <form>
-                    <div class="form-group">
-                      <label for="inputName">Nombre</label>
-                      <input type="text" class="form-control" id="inputName" placeholder="Nombre">
-                    </div>
-                    <div class="form-group">
-                      <label for="inputEnterprise">Empresa</label>
-                      <input type="text" class="form-control" id="inputEnterprise" placeholder="Nombre de la empresa">
-                    </div>
-                    <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                      </div>
-                      <!-- <div class="form-group col-md-6">
-                        <label for="inputPassword4">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                      </div>
-                    </div> -->
-                    <div class="form-group">
-                      <label for="inputAddress">Dirección</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="Av. eje entral #43">
-                    </div>
-                    <!-- <div class="form-group">
-                      <label for="inputAddress2">Address 2</label>
-                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                    </div> -->
-                    <!-- <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputCity">City</label>
-                        <input type="text" class="form-control" id="inputCity">
-                      </div> -->
-                      <!-- <div class="form-group col-md-4">
-                        <label for="inputState">State</label>
-                        <select id="inputState" class="form-control">
-                          <option selected>Choose...</option>
-                          <option>...</option>
-                        </select>
-                      </div> -->
-                      <!-- <div class="form-group col-md-2">
-                        <label for="inputZip">Codigo Postal</label>
-                        <input type="text" class="form-control" id="inputZip">
-                      </div>
-                    </div> -->
-                    <!-- <div class="form-group">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                          Check me out
-                        </label>
-                      </div>
-                    </div> -->
-                    <div class="mb-3">
-                      <label for="FormControlTextarea" class="form-label">Mensaje</label>
-                      <textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                  </form>
-
-                  <p>Lorem ipsum ...</p>
-                </div> 
-              </div> 
-            </div>
           </div>
-
-      </div>
-
-
-
-
-
-
-
-
-
-      <footer class="footer mt-auto py-3 bg-light pie flexi">
-        <div class="container pie-cont flexi">
-          <div class="col-lg-3 adi"></div>
-          <div class="col-lg-3 logos-foot flexi iconosos">
-            <a href="">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="">
-              <i class="fa-brands fa-codepen"></i>
-            </a>
-          </div>
-          <div class="col-lg-3 ligas-foot flexi">
-            <a href="">home</a>
-            <a href="">contacto</a>
-            <a href="">otro</a>
-          </div>
-          <div class="col-lg-3 adi"></div>
-          <!-- <span class="text-muted">Place sticky footer content here.</span> -->
         </div>
-      </footer>
-      <div class="copy">
-        <p>&copy;Derechos resercados</p>
+      </main>
+
+
+
+
+
+
+
+
+
+      <div class="footerAndCopy">
+        <footer class="footer mt-auto py-3 bg-light pie flexi">
+            <div class="container pie-cont flexi">
+              <div class="col-lg-3 adi"></div>
+              <div class="col-lg-3 logos-foot flexi iconosos">
+                <a href="">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-codepen"></i>
+                </a>
+              </div>
+              <div class="col-lg-3 ligas-foot flexi">
+                <a href="">home</a>
+                <a href="">contacto</a>
+                <a href="">otro</a>
+              </div>
+              <div class="col-lg-3 adi"></div>
+              <!-- <span class="text-muted">Place sticky footer content here.</span> -->
+            </div>
+          </footer>
+          <div class="copy" id="copy">
+            &copy;Derechos reservados
+          </div>
       </div>
 
 
@@ -195,33 +182,7 @@
       })
     </script>
 
-<script>
-    //agrear clase al hacer scroll
-    var slider = $(".tab-content").height();
-    var card = $("#card-id").height();
-    var tab = $(".tabs").height();
-    var ancho = $(window).width();
-    // console.log(slider+" + "+card+" + "+tab+" ++++ "+ancho);
-    var tab_cont = $(".tab-content").height();
-    console.log(tab_cont+"contenedor"); 
-    if (ancho <= 550) {
-        $("#card-id").css("height",tab+tab_cont);
-    }
 
-
-    var alto = $(window).height();
-    var pies = $(".pie").height();
-    var copys = $(".copy").height();
-    var navi = $("#nav").height();
-     console.log(alto+" + "+pies+" + "+navi);
-     console.log(navi + card + pies);
-    var total = pies+copys+card+tab+navi+100;
-    if ( (total) < alto ) {
-        $("footer").css("top",alto-total);
-        $(".copy").css("position","relative");
-        $(".copy").css("margin-top",alto-total);
-    }
-  </script>
 
    
 

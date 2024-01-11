@@ -15,8 +15,8 @@
     --tabs-border-color: #ABCDEF;
     --tabs-border-size: 3px;
     --tabs-text-color: white;
-    --tabs-dark-color: #012345;
-    --tabs-lite-color: #345678;
+    --tabs-dark-color: #474747;
+    --tabs-lite-color: rgba(138,138,138,.7);
     /* --tabs-width: 120px;
     --tabs-height: 40px; */
     --tabs-width: 6em;
@@ -106,35 +106,85 @@
   
 
 
+.ocultante{
+  text-align: center;
+  display: none;
+}
+main{
+  margin-bottom: 5vh;
+}
+
+.footerAndCopy{
+  position: -webkit-sticky!important;
+  position: sticky!important;
+  top: 100%;
+}
 
 
-
-  @media (max-width: 550px){
-    .tab>a {
-        /* top: 0; */
-        top: calc(var(--tabs-height)*var(--tabs-position));
-        left: 0;
-        /* left: calc(var(--tabs-width) * var(--tabs-position)); posición de cada pestaña */
-      }
-    .tab-content {
-        top: calc(var(--tabs-height)*2);    /* modificar si se añaden mas columnas */
-      }
-    .card-id{
-        height: calc((var(--tabs-height)) * ( calc(5*2) ) );
-    }
+@media (max-width:1020px){
+  .ocultante{
+    font-size: 30px;
   }
+}
+@media (max-width:750px){
+  .ocultante{
+    font-size: 20px;
+  }
+}
+@media (max-width:424px){
+  .ocultante{
+    font-size: 13px;
+  }
+}
 
-  @media (max-width: 1560px){
-    .tabs{
-      font-size: 1.5em;
-    }
+@media (max-width:800px){
+  .ocultante{
+    display: contents;
   }
-  @media (min-width: 1561px){
-    .tabs{
-      font-size: 1.6em;
-      text-align: center;
-    }
-    .tabs h2{
-      font-size: 2.4em;
-    }
+  .tabi{
+    display: none;
   }
+}
+
+@media (max-width: 1560px){
+  .tabs{
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1561px){
+  .tabs{
+    font-size: 1.6em;
+    text-align: center;
+  }
+  .tabs h2{
+    font-size: 2.4em;
+  }
+}
+@media (min-width: 2000px){
+  .tabs{
+    font-size: 3em;
+    text-align: center;
+  }
+  .tabs h2{
+    font-size: 4em;
+  }
+  .tabs p{
+    font-size: 2.9em;
+  }
+  form{
+    font-size: 1.3em;
+  }
+  .form-group input{
+    height: 1em!important;
+    font-size: 1em!important;
+  }
+  .textareas{
+    height: 8em!important;
+    font-size: 0.8em!important;
+  }
+  .footerAndCopy{
+    margin-top: 40vh;
+    font-size: 1.8em;
+  }
+}
+
